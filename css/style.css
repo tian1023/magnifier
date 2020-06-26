@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.fdj {
+	width: 1200px;
+	height: 400px;
+	display: flex;
+	margin: 50px 50px;
+}
+
+.left {
+	width: 600px;
+	height: 400px;
+	background-image: url(../img/1.JPG);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.back {
+	display: none;
+	width: 300px;
+	height: 200px;
+	background: rgba(255, 255, 0, .6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.right {
+	display: none;
+	flex: 1;
+	background-image: url(../img/1.JPG);
+	background-size: 1200px 800px;
+}
